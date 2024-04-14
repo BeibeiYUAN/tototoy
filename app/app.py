@@ -1,9 +1,9 @@
 from dash import Dash, html
 from flask import Flask
 
-# Exposing the Flask Server to enable configuring it for logging in
 server = Flask(__name__)
-app = Dash(__name__)
+app = Dash(__name__, server=server)
+
 
 app.layout = html.Div([html.Div(children="Hello Data")])
 

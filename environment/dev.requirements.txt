@@ -22,3 +22,4 @@ pytest-custom-exit-code
 pydoclint
 flake8-docstrings
 types-PyYAML
+flask
