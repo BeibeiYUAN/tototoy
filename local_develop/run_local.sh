@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm -it -p 8080:8080 -e DISABLE_JSON_LOGGING=1 --env-file .env tototoy
+docker run -p 127.0.0.1:8000:8000 tototoy
