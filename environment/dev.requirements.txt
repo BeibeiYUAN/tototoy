@@ -1,0 +1,24 @@
+# In this file, please place all additional packages that are required for running your
+# application locally
+#
+# This typically includes packages like jupyter, black, pre-commit, etc
+#
+# If you want to pin a package to specific major version (e.g. any version that starts
+# with 1.5.X) you can specify it as follows:
+#
+# mypackage>=1.5,<1.6
+# or
+# mypackage~=1.5.1
+#
+# Using mypackage==1.5 will fix your package to 1.5.0, which often is not desired
+#
+pre-commit
+pytest
+isort==5.12.0
+black==23.9.0
+flake8==6.1.0
+mypy==v1.5.1
+pytest-custom-exit-code
+pydoclint
+flake8-docstrings
+types-PyYAML
